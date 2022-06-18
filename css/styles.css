@@ -14,7 +14,8 @@ h1,h2,h3,p{margin: 0;}
     margin: 0;
     padding: 0;
 }
-.studio{color: #000000;}
+.studio-black{color: #000000;}
+.studio-white{color: #FFFFFF;}
 
 .header-list{
     display: flex;
@@ -45,9 +46,15 @@ width: 1200px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    
+    margin-bottom: 50px;
     color: #212121;
+    margin-right: 20px;
 }
+.wedo-list{
+    display:flex;
+    margin-right: 50px;
+}
+
 .wedo-head{
 
 font-weight: 700;
@@ -58,6 +65,7 @@ text-transform: uppercase;
 padding-top: 50px;
 padding-bottom: 15px;
 margin-right: 15px;
+padding: 30px;
 
 color: #212121;
 }
@@ -70,6 +78,7 @@ color: #212121;
     
     color: #757575;
     margin-right: 20px;
+    padding: 30px;
 
 }
 
@@ -159,6 +168,11 @@ letter-spacing: 0.02em;
     align-items: center;
 }
 
+.staff-list{
+    display:flex;
+    margin-right: 30px;
+}
+
 .staff-name{
 
 font-weight: 500;
@@ -178,6 +192,8 @@ text-align: center;
 letter-spacing: 0.03em;
 
 color: #757575;
+
+
 }
 
 .footer-white{
@@ -201,6 +217,14 @@ letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
     }
 
+.footer-bcg{
+    background-color: #2F303A;
+    width: 1200px;
+    height: 40px;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+}
 
 
 .btn{
@@ -234,4 +258,8 @@ color: rgba(255, 255, 255, 0.6);
     letter-spacing: 0.03em;
     
     color: #212121;
+}
+
+.work-list{
+    display:flex;
 }

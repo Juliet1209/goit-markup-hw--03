@@ -224,10 +224,8 @@ color: #757575;
     margin: 15px;
 }
 
-.projects{
-    margin: 20px;
-    padding:20px;
-}
+
+.projects {
 
 }
 .footer-white{
@@ -302,4 +300,9 @@ color: rgba(255, 255, 255, 0.6);
 }
 .work-pic{
     display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.project-kind{
+    color: #757575;
 }

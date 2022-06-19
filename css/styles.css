@@ -284,7 +284,7 @@ color: rgba(255, 255, 255, 0.6);
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121; 
-    margin:10px;
+    margin:18px;
    
 }
 .staff{
@@ -300,6 +300,8 @@ color: rgba(255, 255, 255, 0.6);
 .work-list{
     display:flex;
     padding-left: 250px;
+    padding-bottom: 50px;
+    padding-top: 70px;
 }
 .work-pic{
     display:flex;
@@ -308,4 +310,5 @@ color: rgba(255, 255, 255, 0.6);
 }
 .project-kind{
     color: #757575;
+    margin-bottom: 30px;
 }

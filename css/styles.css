@@ -82,6 +82,10 @@ color: #212121;
 
 }
 
+.wedo-img{
+    margin: 20px;
+}
+
 .title-name{
 font-weight: 700;
 font-size: 26px;
@@ -140,6 +144,7 @@ letter-spacing: 0.02em;
     background: #2F303A;
     color: #FFFFFF;
     font-weight: 696px;
+
    
 
     
@@ -149,23 +154,23 @@ letter-spacing: 0.02em;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    
     letter-spacing: 0.06em;
     
     color: #FFFFFF;
-    background: #2196F3;
+    background-color: #2196F3;
     
     border-radius: 4px;
+    
+
 }
 .main-bcg {
     background-color: #2F303A;
     width: 1200px;
     height: 200px;
     padding:  200px;
-    justify-content: center;
-    align-items: center;
+    margin-bottom: 30px;
+    
 }
 
 .staff-list{
@@ -192,8 +197,13 @@ text-align: center;
 letter-spacing: 0.03em;
 
 color: #757575;
+}
+.staff-bcg{
+    color: #F5F4FA;   
+}
 
-
+.staff-img{
+    margin: 15px;
 }
 
 .footer-white{
@@ -231,13 +241,13 @@ color: rgba(255, 255, 255, 0.6);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    
     letter-spacing: 0.06em;
     background-color: #2196F3;
     color: #FFFFFF;
     padding: 10px 32px;
+    margin-top: 20px;
+    margin-left: 300px;
 }
 
 .btn-portfolio [

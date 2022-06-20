@@ -47,7 +47,7 @@ margin-right: auto;
 }
 
 .header-group{
-    margin-left: auto;
+    margin:auto;
 }
 
 .wedo{
@@ -96,6 +96,7 @@ color: #212121;
 
 .wedo-img{
     margin: 20px;
+    width: 355px;
 }
 
 
@@ -286,6 +287,7 @@ color: rgba(255, 255, 255, 0.6);
     padding: 10px 32px;
     margin-top: 20px;
     margin-left: 300px;
+    border: none;
 }
 
 .btn-portfolio {
@@ -297,7 +299,9 @@ color: rgba(255, 255, 255, 0.6);
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121; 
-    margin:18px;
+    margin:8px;
+    border: none;
+    background-color: #F5F4FA;
    
 }
 .staff{

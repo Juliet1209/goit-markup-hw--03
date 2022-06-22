@@ -58,7 +58,17 @@ margin-right: auto;
     margin-bottom: 50px;
     color: #212121
     margin-right: 20px;
+    padding-top: 94px;
     
+}
+.wedo-team{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+    color: #212121 margin-right: 20px;
 }
 .wedo-list{
     display:flex;
@@ -74,7 +84,8 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 
 margin-bottom: 5px;
-padding: 94px 0;
+padding-top: 94px;
+
 
 color: #212121;
 }
@@ -92,8 +103,15 @@ color: #212121;
 }
 
 .wedo-img{
-    margin: 20px;
+    margin: -15px;
     width: 355px;
+}
+.wedo-pic{
+    margin: 15px;
+}
+
+.wedo-pics{
+    padding-bottom: 94px;
 }
 
 
@@ -118,6 +136,7 @@ margin-right: 93px;
     letter-spacing: 0.03em;
     margin-top: 20px;
     margin-bottom: 20px;
+  
     
     color: #2196F3;
     margin-right: 200px;
@@ -149,12 +168,13 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
     color: #757575; 
-    margin-right: 50px;
+    
     padding: 32px 0;
     display: block;
 }
 .header-options-item:hover,
 .header-options-item:focus,
+
 .footer-white:hover,
 .footer-grey:hover,
 .footer-white:focus,
@@ -210,7 +230,7 @@ max-width: 700px;
 
 .staff-list{
     display:flex;
-    margin-right: 30px;
+    margin: -15px;
     
     
 }
@@ -224,8 +244,7 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
 margin-bottom: 10px;
-padding-bottom: 30px;
-padding-top; 30px;
+
 }
 
 .staff-position{
@@ -242,25 +261,24 @@ padding-top;
 30px;
 }
 .staff-bcg{
-    background-color: #F5F4FA;   
+    background-color: #F5F4FA;  
+    padding: 94px 0; 
 }
 
 .staff-img{
-    margin: 15px;
+    
     
 }
 
 .staff-group{
     border: 1px solid #DCDBE1;
-    
+    margin: 15px;
+    background-color: #FFFFFF;
 }
 
 .projects {
 width: 370px;
-padding-top: 20px;
-padding-bottom: 20px;
-padding-left: 24px;
-padding-right: 24px;
+
 }
 .footer-white{
 
@@ -279,13 +297,15 @@ font-size: 14px;
 line-height: 1.71;
 background-color: #2F303A;
 letter-spacing: 0.03em;
+font-style: normal;
+margin-bottom: 9px;
 
 color: rgba(255, 255, 255, 0.6);
     }
 
 .footer-bcg{
     background-color: #2F303A;
-  padding-bottom: 60px 0;
+  padding: 60px 0;
    
     
 }
@@ -314,11 +334,21 @@ color: rgba(255, 255, 255, 0.6);
     padding: 6px 22px;
     letter-spacing: 0.03em;
     color: #212121; 
-    margin:8px;
+    
     border: none;
     background-color: #F5F4FA;
     border-radius: 4px;
    
+}
+
+.btn-portfolio-class{
+   margin-left:8px; 
+}
+
+.current{
+.header-options-item:hover,
+.header-options-item:focus,
+color: #2196F3;
 }
 .staff{
     font-weight: 700;
@@ -333,16 +363,37 @@ color: rgba(255, 255, 255, 0.6);
 .work-list{
     display:flex;
    
-    padding-bottom: 50px;
+    margin-bottom: 50px;
    justify-content: center;
 }
 .work-pic{
     display:flex;
-    justify-content: space-between;
+    margin: -15px;
     flex-wrap: wrap;
 }
 .project-kind{
     color: #757575;
-    margin-bottom: 30px;
+  
+}
+.projects-group{
+width: calc(100% / 3 - 30px);
+margin: 15px;
+}
+.projects-text{
+    padding: 20px 24px;
+}
 
+.projects-head{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+  
+    letter-spacing: 0.06em;
+    
+    color: #212121;
+}
+.section{
+     padding: 94px o;
 }

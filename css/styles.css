@@ -155,7 +155,7 @@ margin-right: 93px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
- margin-right: 50px;
+
  padding: 32px 0;
  display: block;
  
@@ -169,8 +169,11 @@ line-height: 1.14;
 letter-spacing: 0.02em;
     color: #757575; 
     
-    padding: 32px 20px;
+    padding: 32px 0px;
     display: block;
+}
+.header-options-text{
+margin-right: 50px;
 }
 
 .header-options-item:hover,
@@ -272,10 +275,14 @@ color: #757575;
     margin: 15px;
     background-color: #FFFFFF;
     border-radius:0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .projects {
 width: 370px;
+display: block;
 
 }
 .footer-white{
@@ -380,6 +387,7 @@ margin: 15px;
 .projects-text{
     padding: 20px 24px;
     border: 1px solid #ececec;
+    border-top: none;
 }
 
 .projects-head{
